@@ -1,0 +1,69 @@
+
+section{
+  position: absolute;
+  content: '';
+  height: 120vh;
+  width: 100%;
+  left: 0;
+  /* bottom: 0; */
+  background-image: url(../asset/warehouse.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+
+
+ .card-body {
+  position: relative;
+  background-color: #ebedee;
+  opacity: .9;
+  padding:18px;
+  border-radius: 10px;
+}
+
+
+.user-img img{
+
+  height: 150px;
+  width: 150px;
+}
+
+/* .form-group{
+  margin-bottom: 20px;
+} */
+
+.form-group input{
+  height: 42px;
+  border-radius: 5px;
+  border: 1;
+  font-size: 18px;
+  padding-left: 54px;
+  font-family: 'Sen', sans-serif;;
+}
+
+.btn-default{
+  font-size: 19px;
+  border-radius: 5px;
+  width: 150px;
+  border: 1px solid #47504e;
+}
+
+.btn-default:hover{
+  background-color: #47504e;
+  border: 1px solid #ebedee;
+  color: #ebedee;
+}
+
+
+h2{
+  font-family: 'Kaushan Script', cursive;
+}
+h3{
+  font-family:'Sen', sans-serif;
+}
+
+textarea{
+  font-family: 'Sen', sans-serif;
+  font-size: larger !important;
+
+}
